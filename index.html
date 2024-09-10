@@ -18,7 +18,12 @@
             font-size: 2rem;
             color: #555;
         }
+        a {
+            color: inherit;
+            background: transparent;
+        }
         .profile-section {
+            background-image: url('./background.jpg');
             background-size: cover;
             background-position: center;
             padding: 50px 0;
@@ -32,73 +37,78 @@
             border: 5px solid white;
         }
         .profile-section h1 {
-            font-size: 2.5rem;
-            margin: 20px 0 10px 0;
+            font-size: 30px;
         }
         .profile-section h2 {
-            font-size: 1.2rem;
+            font-size: 22px;
             font-weight: 300;
             margin: 10px 0;
         }
         .content {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            line-height: 1.6;
+            padding: 24px 160px;
+            color: rgb(107, 107, 107);
+            font-size: 18px;
         }
         .call-to-action {
-            text-align: center;
             font-weight: bold;
             margin-top: 20px;
             color: #333;
         }
         .research-interests {
-            background-color: #d3d9db;
-            padding: 20px;
-            margin-top: 40px;
-            text-align: left;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #97a0a3;
+            display: flex;
+            justify-content: left;
         }
         .research-interests h3 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
+            width: 211px;
+            font-size: 38px;
+            margin-left: 160px;
         }
         .research-interests ul {
-            list-style: none;
-                       padding-left: 0;
+            padding-left: 160px;
         }
         .research-interests ul li {
             font-size: 1rem;
             margin-bottom: 10px;
         }
         .contact-section {
-            background-color: #d3d9db;
-            padding: 20px;
-            text-align: center;
-            margin-top: 20px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: left;
         }
         .contact-section h3 {
-            font-size: 1.5rem;
+            font-size: 38px;
+            margin-left: 160px;
+            width: 211px;
+        }
+        .contact-section ul {
+            list-style: none;
+            padding-left: 160px;
+        }
+        .research-interests ul li {
+            font-size: 1rem;
             margin-bottom: 10px;
         }
-        .contact-icons {
+        /* .contact-icons {
             font-size: 1.2rem;
             margin-top: 10px;
         }
         .contact-icons i {
             margin: 0 10px;
             font-size: 1.5rem;
-        }
-        footer {
+        } */
+        /* footer {
             text-align: center;
             font-size: 0.9rem;
             margin-top: 30px;
             padding: 10px;
             background-color: #f5f5f5;
             color: #888;
-        }
+        } */
     </style>
 </head>
 <body>
@@ -110,7 +120,7 @@
 <section class="profile-section">
     <img src="./profile.jpg" alt="Profile Picture">
     <h1>Dr. Yuan (Stuart) Li</h1>
-    <h2>Assistant Professor | Mining Engineering | University of Utah</h2>
+    <h2>Assistant Professor | <a href="http://mining.utah.edu">Mining Engineering</a> | <a href="http://utah.edu">University of Utah</a></h2>
 </section>
 
 <section class="content">
@@ -139,16 +149,22 @@
 
 <section class="contact-section">
     <h3>Contact Information</h3>
-    <p>Department of Mining Engineering<br>University of Utah</p>
-    <div class="contact-icons">
-        <i class="fa fa-envelope"></i> <!-- Add email icon -->
-        <i class="fa fa-phone"></i> <!-- Add phone icon -->
-    </div>
+    <ul>
+        <li>Department of Mining Engineering</li>
+        <li>University of Utah</li>
+        <li>R135 South 1460 East, WBB Room 311</li>
+        <li>Salt Lake City, UT 84112 </li>
+        <li>Office: 801-581-5244</li>
+        <li>stuart.li@utah.edu</li>
+    </ul>
+    <!-- <div class="contact-icons">
+        <i class="fa fa-envelope"></i>
+        <i class="fa fa-phone"></i>
+    </div> -->
 </section>
 
-<footer>
-    ©2024 by Yuan Li. Powered and secured by GitHub Pages.
-</footer>
+<!-- <footer>
+</footer> -->
 
 </body>
 </html>
