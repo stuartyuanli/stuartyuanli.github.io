@@ -1,1 +1,1 @@
-I am currently an Assistant Professor in the Department of Mining Engineering at the University of Utah. I earned my PhD in Mining Engineering from the University of British Columbia, where I studied under the supervision of Professor Dirk van Zyl. My research focuses on advancing mine tailings management, with a particular emphasis on dewatering methods through sedimentation and filtration techniques.
+Github Pages for Yuan(Stuart) Li
